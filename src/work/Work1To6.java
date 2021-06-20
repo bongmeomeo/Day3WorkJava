@@ -2,7 +2,7 @@ package work;
 
 import java.util.Scanner;
 
-public class Work1 {
+public class Work1To6 {
 
 	static Scanner sc = new Scanner(System.in);
 	

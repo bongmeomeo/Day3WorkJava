@@ -3,16 +3,16 @@ package work;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Work {
+public class Work14To26 {
 
 static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str = "Enter number of works from 14 to :";
-		System.out.println(str);
-		int num = sc.nextInt();
-		returnWork(num, str);		
-	
+//		String str = "Enter number of works from 14 to :";
+//		System.out.println(str);
+//		int num = sc.nextInt();
+//		returnWork(num, str);		
+		print25b();
 	}
 	
 	public static void returnWork(int num , String str) {
@@ -257,16 +257,29 @@ static Scanner sc = new Scanner(System.in);
 	public static void print25a() {
 		for (int i= 0 ; i< 9; i++) {
 			for ( int j =0; j<= i; j++ ) {
-				if ( j == 1 || j == i || i == 9) {
+				if ( j == 0 || j == i || i == 8) {
 					System.out.print("*");
 				} else {
-					System.out.print("");
+					System.out.print(" ");
 				}
-				System.out.println("");
 			}
+			System.out.println("");
 		}
 	}
-	
+//	public static void print25b() {
+//		for (int i =0; i < 9; i++) {
+//			for (int j = 0; j < 9; j++) {
+//				if ( i == 0   || i == 8  || ( j <2 && j >6) || (j > 0 && j)  ) {
+//					System.out.print("*");
+//				}
+//				else {
+//					System.out.print("a");
+//				}
+//			}
+//			System.out.println("");
+//		}
+//		
+//	}
 //	Work 26
 	public static void printArts2() {
 		System.out.println("Enter index of Art from a to d: ");
